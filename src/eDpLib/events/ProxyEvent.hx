@@ -10,12 +10,12 @@ class ProxyEvent extends Event {
 	//////////// TODO: doesnt work!
 	#if (flash || html5)
 	private function get_target():Dynamic {
-		trace(" in proxy event!");
+		//trace(" in proxy event!");
 		return proxy;
 	}
 	#else
 	private override function get_target():Dynamic {
-		trace(" in proxy event!");
+		//trace(" in proxy event!");
 		return proxy;
 	}
 	#end
