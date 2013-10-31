@@ -5,6 +5,7 @@ Will update as time goes on. Pull requests more than welcome!
 Flash
 -------------------------
 <img src="https://github.com/ianharrigan/openflisolib/raw/master/docs/flash_screen.jpg" />
+<img src="https://github.com/ianharrigan/openflisolib/raw/master/docs/pyramid_screen.jpg" />
 
 Cpp/Neko
 -------------------------

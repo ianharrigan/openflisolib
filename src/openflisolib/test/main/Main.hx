@@ -21,7 +21,8 @@ class Main extends Sprite  {
 		scene.hostContainer = this;
 
 		// add stuff
-		new Test1(scene);
+		//new Test1(scene);
+		new PyramidTest(scene);
 		
 		scene.render();
 	}
