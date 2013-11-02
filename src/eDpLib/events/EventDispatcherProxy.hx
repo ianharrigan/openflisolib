@@ -48,6 +48,7 @@ class EventDispatcherProxy implements IEventDispatcher implements IEventDispatch
 	//	CONSTRUCTOR
 	////////////////////////////////////////////////////////////////////////
 	public function new() {
+		listenerHashTable = new Map < String, ListenerHash >();
 		interceptedEventHash = new Map<String, String>();
 		_proxyTargetListenerQueue = new Array<Dynamic>();
 		proxy = this;

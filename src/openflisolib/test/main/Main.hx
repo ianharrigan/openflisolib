@@ -23,6 +23,8 @@ class Main extends Sprite  {
 		// add stuff
 		//new Test1(scene);
 		new PyramidTest(scene);
+		//new AnimationTest(scene);
+		//new HexTest(scene);
 		
 		scene.render();
 	}

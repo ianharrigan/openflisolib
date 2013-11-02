@@ -9,7 +9,7 @@ class ListenerHash {
 	}
 	
 	public function addListener(listener:Dynamic -> Void):Void {
-		if (contains(listener)) {
+		if (!contains(listener)) {
 			listeners.push(listener);
 		}
 	}

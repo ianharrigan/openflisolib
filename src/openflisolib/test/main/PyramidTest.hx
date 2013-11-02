@@ -12,7 +12,7 @@ import openflisolib.graphics.SolidColorFill;
 import openflisolib.graphics.Stroke;
 
 class PyramidTest {
-	private var layers:Int = 13;
+	private var layers:Int = 14;
 	private var brickSize:Int = 20;
 	private var bitmapFill:BitmapData;
 	private var brickCount:Int = 0;
@@ -72,7 +72,7 @@ class PyramidTest {
 			box.fills = [
 				new SolidColorFill(0xE1D9D0, 1),
 				new SolidColorFill(0xE4DCD3, 1),
-				new SolidColorFill(0xFFFFFF, 1),
+				new SolidColorFill(0xEAEAEA, 1),
 				new SolidColorFill(0, 1),
 				new SolidColorFill(0, 1),
 				new SolidColorFill(0, 1)
